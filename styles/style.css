@@ -1,7 +1,7 @@
 /* Common Shared Style */
 *{
-    /* width: 1320px;
-    height: 600px; */
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -33,6 +33,7 @@ body{
         justify-content: space-between;
         margin: none;
         padding: 130px 340px 170px 340px;
+        
 }
 
 .banner-greetings{
@@ -55,6 +56,8 @@ margin-top: 0px;
 /* main section style */
 .offer{
     text-align: center;
+    width: 1320px;
+    height: 600px;
 }
 .offer-announce{
     color: #F00;
@@ -95,6 +98,8 @@ margin-top: none;
     margin-top: 50px;
     text-align: left;
     /* padding: 126px 500px 142px 126px; */
+    width: 1320px;
+    height: 600px;
 }
 
 .party-title{
@@ -148,6 +153,8 @@ padding-left: 156px;
 .gift-section{
     padding-left: 140px;
     padding-top: 100px;
+    width: 1320px;
+    height: 600px;
 }
 
 .gift-about{
