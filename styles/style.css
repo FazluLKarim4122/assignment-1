@@ -4,7 +4,8 @@ body{
     font-family: 'Merriweather', serif;
     background-color:#FFF ;
     /* margin: 0; */
-    padding: 0;
+    /* width: 1320px;
+    height: 600px; */
 }
 
 .heading{
@@ -47,12 +48,93 @@ margin-top: 0px;
 }
 
 /* main section style */
+.offer{
+    text-align: center;
+}
 .offer-announce{
     color: #F00;
-text-align: center;
+
 font-family: Inter;
 font-size: 88px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+}
+.offer-greetings{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    margin-bottom: none;
+}
+.offer-title{
+    color: #070211;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: none;
+}
+
+/* party section style */
+.party{
+    background-image: url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 50px;
+    text-align: left;
+    /* padding: 126px 500px 142px 126px; */
+}
+
+.party-title{
+    color: #FFF;
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+line-height: 88px; /* 137.5% */
+letter-spacing: 7.04px;
+padding-right: 500px;
+padding-top: 115px;
+padding-left: 115px;
+padding-bottom: 0%;
+margin-bottom: 0px;
+}
+
+.party-description{
+    color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+padding-left: 115px;
+padding-right: 480px;
+margin-top: 14px;
+}
+
+.party-join{
+    color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+background-color:black;
+border: none;
+
+padding: 0%;
+
+
+}
+
+.join-button{
+ background-color: none;
+padding-left: 156px;
+
+
 }
