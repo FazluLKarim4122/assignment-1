@@ -1,0 +1,58 @@
+/* Common Shared Style */
+
+body{
+    font-family: 'Merriweather', serif;
+    background-color:#FFF ;
+    /* margin: 0; */
+    padding: 0;
+}
+
+.heading{
+    background-image: url('../resources/bannerimage.png');
+    width: 1320px;
+    height: 600px;
+    /* max-width: 83%; */
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 50px;
+}
+
+
+/* banner section */
+.banner{
+        /* display: block; */
+        /* display: flex; */
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        margin: none;
+        padding: 130px 340px 170px 340px;
+}
+
+.banner-greetings{
+    color: #FFF;
+font-size: 32px;
+font-weight: 400;
+/* padding: 170px 525px; */
+margin-bottom: 16px;
+
+}
+
+.banner-title{
+    color: #FFF;
+font-size: 72px;
+font-weight: 900;
+margin-top: 0px;
+
+}
+
+/* main section style */
+.offer-announce{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
