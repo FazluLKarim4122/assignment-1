@@ -200,15 +200,28 @@ padding-right: 564px;
 }
 
 .gift-items{
-    display: block;
+    
+
+    /* /* display: block; */
     border-radius: 16px;
-    padding: auto;
-    justify-content: space-around;
+    /* display: grid; */
+    /* padding: auto; */
+    /* justify-content: space-between; */
     margin-top: 48px;
     margin-bottom: 120px;
+    /* justify-content: center; */
+
+}
+
+.gift-items img{
     
-    /* justify-items: auto;     */
-/* background: lightgray 0px -35.755px / 100% 142.115% no-repeat; */
+
+}
+
+
+.gift-image{
+    padding: 10px;
+    
 }
 
 
