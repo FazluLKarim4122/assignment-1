@@ -349,13 +349,14 @@ margin-top: 0px;
     margin-top: 40px;
     align-items: center;
     padding: 48px 600px;
+    max-width: 100%;
+   
     
 
 }
-.social-links{
-    /* gap: 16px;
-    gap: 24px;
-    justify-content: space-around; */
+
+.icon{
+    padding-right: 15px;
 }
 
 /* last section style */
