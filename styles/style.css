@@ -351,8 +351,11 @@ font-style: normal;
 font-weight: 500;
 line-height: 40px; /* 166.667% */
 margin-bottom: 0px;
-padding-right: ;
+padding-right: px ;
+display: inline-block;
 }
+
+
 
 .contact{
     color: #FFF;
@@ -435,4 +438,9 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 border: none;
+}
+
+hr{
+    
+    border-color: rgba(255, 255, 255, 0.15);
 }
