@@ -226,7 +226,7 @@ padding-right: 564px;
 
 }
 .mail{
-    /* padding-top: 80px; */
+    padding-top: 80px;
 }
 
 .subscribe-title{
@@ -249,6 +249,41 @@ text-transform: capitalize;
     line-height: 32px; /* 160% */
     padding-right: 212px;
     padding-left: 212px;
+}
+
+.input-form{
+    max-width: 700px;
+    height: 72px;
+    margin: 48px auto;
+    display: flex;
+    /* border-radius: 50px; */
+    gap: 0px;
+}
+
+.input-form input{
+    flex-grow: 1;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+    padding: 30px;
+    color: rgba(7, 2, 17, 0.30);
+
+font-family: Inter;
+font-size: 18px;
+
+font-weight: 400;
+outline: none;
+    
+    /* jodi kono form ba div er moddhe flex thake er moddhe kono element k flex grow kori/thake tar vitore kono 1ta child k jodi flex-grow: 1; kore deya hoy,tahole she jototuku jayga pabe tototuku jayga niye nibe baki jayga tuku te onno child/element ta boshbe */
+    /* width: 648px;
+    height: 72px */
+}
+
+.subscribe-button{
+    width: 210px;
+height: 72px;
+color: #FFF;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
 }
 
 
