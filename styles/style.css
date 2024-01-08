@@ -56,8 +56,13 @@ margin-top: 0px;
 /* main section style */
 .offer{
     text-align: center;
+    
     width: 1320px;
     height: 600px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 50px;
+    margin-bottom: 120px ;
 }
 .offer-announce{
     color: #F00;
@@ -98,8 +103,7 @@ margin-top: none;
     margin-top: 50px;
     text-align: left;
     /* padding: 126px 500px 142px 126px; */
-    width: 1320px;
-    height: 600px;
+    
 }
 
 .party-title{
@@ -151,10 +155,13 @@ padding-left: 156px;
 
 /* gift section style */
 .gift-section{
-    padding-left: 140px;
-    padding-top: 100px;
-    /* width: 1320px; */
-    /* height: 600px; */
+    width: 1320px;
+    height: 600px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 50px;
+    /* padding-left: 140px; */
+    /* padding-top: 100px; */
 }
 
 .gift-about{
@@ -192,11 +199,13 @@ padding-right: 564px;
 }
 
 .gift-items{
-    margin-top: 40px;
+    /* margin-top: 40px; */
+    width: 24px;
+    height: 50px;
     border-radius: 16px;
     padding: ;
     gap: ;
-    justify-items: auto;    
+    /* justify-items: auto;     */
 /* background: lightgray 0px -35.755px / 100% 142.115% no-repeat; */
 }
 
@@ -206,9 +215,11 @@ padding-right: 564px;
 .subscribe-section{
     padding: 80px ;
     margin-top: 120px;
-    /* width: 1320px; */
-    /* height: 616px; */
-    flex-shrink: 0;
+    width: 1320px;
+    height: 600px;
+    margin-left: 140px;
+    margin-right: 140px;
+    /* margin-top: 50px; */
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
     text-align: center;
@@ -239,10 +250,16 @@ text-transform: capitalize;
     padding-right: 212px;
 }
 
+
+/* Footer section style */
+
 footer{
     width: 1600px;
 height: 609px;
 background: #070211;
+padding-right: 140px ;
+padding-left: 140px;
+margin-top: 120px;
 }
 
 .upper{
@@ -252,8 +269,8 @@ background: #070211;
     /* gap: 40px; */
     padding-top: 120px;
 padding-bottom: 50px;
-padding-right: 200px;
-padding-left: 120px;
+padding-right: 400px;
+/* padding-left: 120px; */
    
 }
 
@@ -264,26 +281,18 @@ font-size: 24px;
 font-style: normal;
 font-weight: 500;
 line-height: 40px; /* 166.667% */
-padding-right: 650px;
-
-
+margin-bottom: 0px;
+padding-right: ;
 }
 
 .phone-web{
-padding-top: px;
-padding-right: 100px;
-padding-bottom:
+    /* display: inline-block; */
+    /* text-align: right; */
+    /* align-items: center; */
+    /* justify-content: center; */
+
 }
 
-.number{
-    color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: 40px; /* 166.667% */
-margin-bottom: 0px;
-}
 
 .website{
     color: #FFF;
@@ -293,4 +302,56 @@ font-style: normal;
 font-weight: 500;
 line-height: 40px; /* 166.667% */
 margin-top: 0px;
+
+}
+
+/* footer second section */
+
+.social-media{
+    margin-top: 40px;
+    align-items: center;
+    padding: 48px 600px;
+    
+
+}
+.social-links{
+    /* gap: 16px;
+    gap: 24px;
+    justify-content: space-around; */
+}
+
+/* last section style */
+
+
+.last-section{
+    display: flex;
+    /* align-items: center; */
+    padding-top: 50px;
+    justify-content: space-between;
+    /* padding-left: 140px; */
+    /* padding-right: 140px; */
+}
+
+.copyright{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;               
+}
+
+.unsubscribe{
+   
+}
+
+.unsubscriber-button{
+    background: #070211;
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border: none;
 }
