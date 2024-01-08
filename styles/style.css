@@ -8,9 +8,10 @@
 body{
     font-family: 'Merriweather', serif;
     background-color:#FFF ;
-    /* margin: 0; */
-    /* width: 1320px; */
-    /* height: 600px; */
+    margin: 0;
+    padding: 0;
+    width: 1600px;
+    height: 735px;
 }
 
 .heading{
