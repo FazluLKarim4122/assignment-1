@@ -238,3 +238,59 @@ text-transform: capitalize;
     line-height: 32px; /* 160% */
     padding-right: 212px;
 }
+
+footer{
+    width: 1600px;
+height: 609px;
+background: #070211;
+}
+
+.upper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 40px; */
+    padding-top: 120px;
+padding-bottom: 50px;
+padding-right: 200px;
+padding-left: 120px;
+   
+}
+
+.adderess{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+padding-right: 650px;
+
+
+}
+
+.phone-web{
+padding-top: px;
+padding-right: 100px;
+padding-bottom:
+}
+
+.number{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+margin-bottom: 0px;
+}
+
+.website{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+margin-top: 0px;
+}
